@@ -7,10 +7,11 @@
 <br/>
 
 > ### 2. Xác thực vân tay trên terminal
+
 - Mở terminal và gõ lệnh sau:\
 ```sudo code /etc/pam.d/sudo```
 - Thay đổi dòng có chứa **sufficient** thành:\
-```auth sufficient pam_tid.so``` 
+```auth sufficient pam_tid.so```
 
 <br/><br/><br/>
 ### Liên hệ & Hỗ trợ
