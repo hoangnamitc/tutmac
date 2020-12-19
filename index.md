@@ -1,7 +1,9 @@
 # Tổng hợp các thủ thuật và lệnh về Mac
-<br/>
-> ### 1. Lệnh xóa tất cả cài đặt Finder
 
+<br/>
+
+> ### 1. Lệnh xóa tất cả cài đặt Finder
+- Chạy terminal lệnh sau:\
 ```sudo find / -name .DS_Store -delete; killall Finder```
 
 <br/>
@@ -21,11 +23,18 @@
 - __Nén File:__\
 mở terminal:\
 cd \<your-path\>\
-```zip -r ../zipped_dir.zip *```
+```zip -r ../zip_file.zip *```
 
 - __Giải nén File__:\
 ```unzip archive_name.zip```
 
+2. **TAR.GZ**
+- __Nén File:__\
+mở terminal:\
+cd \<your-path\>\
+```tar -cvf ./zip_file.tar.gz *```\
+kèm theo lệnh để loại trừ ko nén:\
+```--exclude="._*"```
 
 <br/><br/><br/>
 ### Liên hệ & Hỗ trợ
