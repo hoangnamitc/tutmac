@@ -34,6 +34,8 @@ cd \<your-path\>\
 ```tar -cvf ./zip_file.tar.gz *```\
 kèm theo lệnh để loại trừ ko nén:\
 ```--exclude="._*"```
+- __Giải nén File__:\
+```tar -xvf archive_name.tar.gz```
 
 <br/><br/><br/>
 ### Liên hệ & Hỗ trợ
