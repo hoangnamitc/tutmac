@@ -24,7 +24,6 @@
 mở terminal:\
 cd \<your-path\>\
 ```zip -r ../zip_file.zip *```
-
 - __Giải nén File__:\
 ```unzip archive_name.zip```
 
