@@ -13,6 +13,19 @@
 - Thay đổi dòng có chứa **sufficient** thành:\
 ```auth sufficient pam_tid.so```
 
+<br/>
+
+> ### 3. Nén file bằng lệnh
+
+1. **ZIP**
+- __Nén File:__\
+mở terminal:\
+cd \<your-path\>\
+```zip -r ../zipped_dir.zip *```
+- __Giải nén File__:\
+```unzip archive_name.zip```
+
+
 <br/><br/><br/>
 ### Liên hệ & Hỗ trợ
 
