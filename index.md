@@ -1,7 +1,10 @@
 # Tổng hợp các thủ thuật và lệnh về Mac
 
 > ### 1. Lệnh xóa tất cả cài đặt Finder
+
 ```sudo find / -name .DS_Store -delete; killall Finder```
+
+
 
 > ### 2. Xác thực vân tay trên terminal
 
